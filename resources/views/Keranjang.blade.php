@@ -118,9 +118,7 @@
                             <td class="cart_total">
                                 <p class="cart_total_price">Rp {{ $krj->jumlah * $krj->harga }}</p>
                             </td>
-                            <td class="cart_delete">
-                                <a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-                            </td>
+
                         </tr>
                     <?php $total += ($krj->jumlah * $krj->harga) ?>
                     @endforeach
@@ -141,7 +139,7 @@
                         <ul>
                             <li>Total <span>Rp {{$total}}</span></li>
                         </ul>
-                            <a class="btn btn-default check_out" href="">Check Out</a>
+                            <a class="btn btn-default check_out" href="/Checkout">Check Out</a>
                     </div>
                 </div>
             </div>

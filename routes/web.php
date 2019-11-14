@@ -19,3 +19,5 @@ Route::post('/userlogin', 'Login@userlogin');
 Route::get('/userlogout', 'Login@userlogout');
 Route::post('/AddCart', 'Order@order');
 Route::get('/keranjang', 'Order@keranjang');
+Route::get('/Checkout', 'Order@checkout');
+Route::get('/Checkout_list', 'Order@Checkout_List');
